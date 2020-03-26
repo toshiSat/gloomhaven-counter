@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Gloomhaven Counter",
+    "slug": "gloomhaven-counter",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.gloomhaven.counter",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.gloomhaven.counter",
+      "versionCode": 1
+    }
+  }
+}
